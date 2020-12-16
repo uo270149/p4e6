@@ -30,30 +30,30 @@
     <!-- CREAR BASE -->
     <h2 id="baseEncabezado">Crear Base de Datos</h2>
     <form class="formBase" action='#' method='post'>
-        <input type='submit' class='button' name='crearBBDD' value="Crear BBDD" />
+        <input type='submit' title="crearbase" class='button' name='crearBBDD' value="Crear BBDD" />
     </form>
 
     <!-- CREAR TABLA -->
     <h2 id="tablaEncabezado">Crear Tabla</h2>
     <form class="formBase" action='#' method='post'>
-        <input type='submit' class='button' name='crearTabla' value="Crear Tabla" />
+        <input type='submit' title="creartabla" class='button' name='crearTabla' value="Crear Tabla" />
     </form>
 
     <!-- INSERTAR -->
     <h2 id="insertarEncabezado">Complete los datos a insertar en la tabla PruebasUsabilidad</h2>
     <form class="formBase" action='#' method='post'>
         <p>Datos del usuario:</p>
-        <p>DNI:<input type="text" class="text" name="dni" /></p>
-        <p>Nombre:<input type="text" class="text" name="nombre" /></p>
-        <p>Apellidos:<input type="text" class="text" name="apellidos" /></p>
-        <p>Email:<input type="text" class="text" name="email" /></p>
-        <p>Telefono:<input type="text" class="text" name="telefono" /></p>
-        <p>Edad:<input type="text" class="text" name="edad" /></p>
-        <p>Sexo:<input type="text" class="text" name="sexo" /></p>
+        <p>DNI:<input type="text" title="dni" class="text" name="dni" /></p>
+        <p>Nombre:<input type="text" title="nombre" class="text" name="nombre" /></p>
+        <p>Apellidos:<input type="text" title="apellidos" class="text" name="apellidos" /></p>
+        <p>Email:<input type="text" title="email" class="text" name="email" /></p>
+        <p>Telefono:<input type="text" title="telefono" class="text" name="telefono" /></p>
+        <p>Edad:<input type="text" title="edad" class="text" name="edad" /></p>
+        <p>Sexo:<input type="text" title=sexo class="text" name="sexo" /></p>
 
         <p>Datos de la prueba:</p>
         <p>Nivel de informática demostrado:
-            <select name="nivelInformatica">
+            <select title="nivelInformatica" name="nivelInformatica">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -66,14 +66,14 @@
                 <option value="9">9</option>
                 <option value="10">10</option>
             </select></p>
-        <p>Tiempo de realización:<input type="text" class="text" name="tiempo" /></p>
-        <p>¿Tarea correcta?<input type="text" class="text" name="tareaCorrecta" /></p>
+        <p>Tiempo de realización:<input type="text" title="tiempo" class="text" name="tiempo" /></p>
+        <p>¿Tarea correcta?<input type="text" title="tareaCorrecta" class="text" name="tareaCorrecta" /></p>
 
         <p>Otros:</p>
-        <p>Comentarios:<input type="text" class="text" name="comentarios" /></p>
-        <p>Propuestas de mejora:<input type="text" class="text" name="propuestasMejora" /></p>
+        <p>Comentarios:<input type="text" title="comentarios" class="text" name="comentarios" /></p>
+        <p>Propuestas de mejora:<input type="text" title="propuestasMejora" class="text" name="propuestasMejora" /></p>
         <p>Valoración:
-            <select name="valoracion">
+            <select title="valoracion" name="valoracion">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -88,32 +88,32 @@
             </select>
         </p>
 
-        <input type='submit' class='button' name='insert' value="Insertar Datos" />
+        <input type='submit' title="insertardatos" class='button' name='insert' value="Insertar Datos" />
     </form>
 
     <!-- BUSCAR -->
     <h2 id="buscarEncabezado">Buscar datos en la tabla PruebasUsabilidad</h2>
     <form class="formBase" action='#' method='post'>
-        <p>DNI:<input type="text" class="text" name="dni" /></p>
+        <p>DNI:<input type="text" title="dni" class="text" name="dni" /></p>
 
-        <input type='submit' class='button' name='search' value="Buscar Datos" />
+        <input type='submit' title="search" class='button' name='search' value="Buscar Datos" />
     </form>
 
     <!-- MODIFICAR -->
     <h2 id="modificarEncabezado">Modificar los datos en la tabla PruebasUsabilidad</h2>
     <form class="formBase" action='#' method='post'>
-        <p>DNI de la entrada a actualizar:<input type="text" class="text" name="dni" /></p>
+        <p>DNI de la entrada a actualizar:<input type="text" title="dni" class="text" name="dni" /></p>
         <p>Datos del usuario:</p>
-        <p>Nombre:<input type="text" class="text" name="nombre" /></p>
-        <p>Apellidos:<input type="text" class="text" name="apellidos" /></p>
-        <p>Email:<input type="text" class="text" name="email" /></p>
-        <p>Telefono:<input type="text" class="text" name="telefono" /></p>
-        <p>Edad:<input type="text" class="text" name="edad" /></p>
-        <p>Sexo:<input type="text" class="text" name="sexo" /></p>
+        <p>Nombre:<input type="text" title="nombre" class="text" name="nombre" /></p>
+        <p>Apellidos:<input type="text" title="apellidos" class="text" name="apellidos" /></p>
+        <p>Email:<input type="text" title="email" class="text" name="email" /></p>
+        <p>Telefono:<input type="text" title="telefono" class="text" name="telefono" /></p>
+        <p>Edad:<input type="text" title="edad" class="text" name="edad" /></p>
+        <p>Sexo:<input type="text" title="sexo" class="text" name="sexo" /></p>
 
         <p>Datos de la prueba:</p>
         <p>Nivel de informática demostrado:
-            <select name="nivelInformatica">
+            <select title="nivelInformatica" name="nivelInformatica">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -126,14 +126,14 @@
                 <option value="9">9</option>
                 <option value="10">10</option>
             </select></p>
-        <p>Tiempo de realización:<input type="text" class="text" name="tiempo" /></p>
-        <p>¿Tarea correcta?<input type="text" class="text" name="tareaCorrecta" /></p>
+        <p>Tiempo de realización:<input title="tiempo" type="text" class="text" name="tiempo" /></p>
+        <p>¿Tarea correcta?<input type="text" title="tareacorrecta" class="text" name="tareaCorrecta" /></p>
 
         <p>Otros:</p>
-        <p>Comentarios:<input type="text" class="text" name="comentarios" /></p>
-        <p>Propuestas de mejora:<input type="text" class="text" name="propuestasMejora" /></p>
+        <p>Comentarios:<input type="text" title="comentarios" class="text" name="comentarios" /></p>
+        <p>Propuestas de mejora:<input type="text" title="propuestasmejora" class="text" name="propuestasMejora" /></p>
         <p>Valoración:
-            <select name="valoracion">
+            <select title="valoracion" name="valoracion">
                 <option value="0">0</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -148,33 +148,33 @@
             </select>
         </p>
 
-        <input type='submit' class='button' name='update' value="Modificar Datos" />
+        <input type='submit' title="modificar" class='button' name='update' value="Modificar Datos" />
     </form>
 
     <!-- ELIMINAR -->
     <h2 id="eliminarEncabezado">Eliminar datos de la tabla PruebasUsabilidad</h2>
     <form class="formBase" action='#' method='post'>
-        <p>DNI:<input type="text" class="text" name="dni" /></p>
+        <p>DNI:<input type="text" title="dni" class="text" name="dni" /></p>
 
-        <input type='submit' class='button' name='delete' value="Eliminar Datos" />
+        <input type='submit' title="eliminar" class='button' name='delete' value="Eliminar Datos" />
     </form>
 
     <!-- INFORME -->
     <h2 id="informeEncabezado">Informe detallado de las pruebas de usabilidad</h2>
     <form class="formBase" action='#' method='post'>
-        <input type='submit' class='button' name='generate' value="Generar Informe" />
+        <input type='submit' title="informe" class='button' name='generate' value="Generar Informe" />
     </form>
 
     <!-- CARGAR DATOS -->
     <h2 id="cargarEncabezado">Cargar datos</h2>
     <form class="formBase" action='#' method='post'>
-        <input type='submit' class='button' name='loadData' value="Cargar Datos" />
+        <input type='submit' title="cargar" class='button' name='loadData' value="Cargar Datos" />
     </form>
 
     <!-- EXPORTAR DATOS -->
     <h2 id="exportarEncabezado">Exportar datos</h2>
     <form class="formBase" action='#' method='post'>
-        <input type='submit' class='button' name='exportar' value="Exportar Datos" />
+        <input type='submit' title="exportar" class='button' name='exportar' value="Exportar Datos" />
     </form>
 
     
